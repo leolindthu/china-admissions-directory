@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-07",
+  "owner": "Agora Scholars",
+  "counts": {
+    "catalogueUnits": 1660,
+    "universities": 9,
+    "coveragePages": 18,
+    "sourceRecords": 100,
+    "byLevel": {
+      "master": 1194,
+      "undergraduate": 466
+    },
+    "byUniversity": {
+      "Fudan University": 230,
+      "Harbin Institute of Technology": 149,
+      "Nanjing University": 179,
+      "Peking University": 243,
+      "Shanghai Jiao Tong University": 154,
+      "Tsinghua University": 118,
+      "University of Science and Technology of China": 54,
+      "Xi’an Jiaotong University": 157,
+      "Zhejiang University": 376
+    },
+    "byRecordType": {
+      "admission_college": 10,
+      "admission_department": 23,
+      "admission_division": 29,
+      "admission_group": 9,
+      "admission_programme": 431,
+      "admission_route": 2,
+      "department_degree": 94,
+      "department_degree_language": 1062
+    },
+    "byCycleStatus": {
+      "academic_year_2026_2027_guide_intake_2026": 97,
+      "current_catalogue": 94,
+      "current_notice_and_live_catalogue": 3,
+      "historical_2026": 211,
+      "latest_catalogue_cycle_unstated": 179,
+      "prior_cycle_catalogue": 1000,
+      "selected_current_route": 3,
+      "undated_live_catalogue": 21,
+      "verified_2027": 52
+    },
+    "byIntake": {
+      "2026": 1211,
+      "2026/2027 academic year": 97,
+      "2027": 152,
+      "unknown": 200
+    },
+    "unknownTeachingLanguage": 102,
+    "recordsWithLanguageEvidence": 1299,
+    "nestedResearchFieldRows": 1938,
+    "nestedQualifierOnlyRows": 2,
+    "nestedMajorOptionCells": 154,
+    "nestedAdmissionGroups": 27,
+    "nestedSpecializationOptions": 104
+  },
+  "projectionInputs": [
+    {
+      "filename": "catalogue-public.json",
+      "sha256": "15ca5b925f5a348d96864cd58f63c0b43074278826b0b2b0d41cafd30eaf5d9d",
+      "records": 361,
+      "sources": 59
+    },
+    {
+      "filename": "catalogue-expanded-public.json",
+      "sha256": "b47035a61d80aa752af7859a3d356c15d25b40934dbea5d6492a0c1539d2a3a2",
+      "records": 760,
+      "sources": 19
+    },
+    {
+      "filename": "catalogue-ustc-nanjing-public.json",
+      "sha256": "8c046f0fc7ee9970115caa3d376740c6a77fcdeee2122caa1df53c9cda563b7a",
+      "records": 233,
+      "sources": 10
+    },
+    {
+      "filename": "catalogue-xjtu-hit-public.json",
+      "sha256": "54bf65f20a319548715578dd4b45a58f4141338b3d03694da8831fcc4a1b8bfc",
+      "records": 306,
+      "sources": 12
+    }
+  ],
+  "coverageInput": {
+    "filename": "catalogue.ts",
+    "sha256": "f5a40dbc51d78e2c9bb5b64d888ea342bf44c1654d03ffb6da9b843e10275061",
+    "fields": [
+      "cycle",
+      "level",
+      "limits",
+      "slug",
+      "sourceIds",
+      "unit",
+      "university"
+    ]
+  },
+  "files": [
+    {
+      "path": "data/admission-groups.csv",
+      "bytes": 11839,
+      "sha256": "2955d7fdd3ab006a1bc1294f890ad9cd534bce1ddfdb432de800af5c98b401d4"
+    },
+    {
+      "path": "data/catalogue.csv",
+      "bytes": 1397064,
+      "sha256": "d6f8cd17475019de6886346278a8d2413e08e18f025382988a03909a95f4ab1e"
+    },
+    {
+      "path": "data/catalogue.json",
+      "bytes": 1634625,
+      "sha256": "a390f9197b42aab0f8ef5532a04f47af1fc40ee03c59e6e52da1bfc251e6a445"
+    },
+    {
+      "path": "data/coverage-notes.json",
+      "bytes": 25687,
+      "sha256": "183a522053c719b59cce616f10435a1b710a6d26e5a6885dc8d14a913db2319b"
+    },
+    {
+      "path": "data/coverage.csv",
+      "bytes": 21034,
+      "sha256": "8553c02fb6fa08f8f7691db8a9670adae802120031f29e8c5b79db215d2cfe32"
+    },
+    {
+      "path": "data/major-options.csv",
+      "bytes": 47123,
+      "sha256": "6a7f65f51943369e65b0ae1a88fdd038264e54e826ee6f65446f9e6e36388d38"
+    },
+    {
+      "path": "data/research-fields.csv",
+      "bytes": 599111,
+      "sha256": "fced5d8db6242b76a6a251f60c2fb25cc564468fdfb465dcbdadd0eba84054cf"
+    },
+    {
+      "path": "data/sources.csv",
+      "bytes": 23273,
+      "sha256": "3952330070f017508800218ba0f2a8e7826d7935940a93ab54cb7f10ed209bc8"
+    }
+  ],
+  "interpretation": "Catalogue units are not unique degrees or open applications. Nested rows are subordinate source entries, not additional degree counts. Currentness labels apply only to this dated snapshot. Source check dates are inherited from the public projections; exporting does not recheck the URLs."
+}

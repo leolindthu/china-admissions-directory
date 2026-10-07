@@ -1,0 +1,394 @@
+{
+  "coverageProvenance": {
+    "filename": "catalogue.ts",
+    "sha256": "f5a40dbc51d78e2c9bb5b64d888ea342bf44c1654d03ffb6da9b843e10275061",
+    "fields": [
+      "cycle",
+      "level",
+      "limits",
+      "slug",
+      "sourceIds",
+      "unit",
+      "university"
+    ]
+  },
+  "coverage": [
+    {
+      "slug": "tsinghua-undergraduate",
+      "university": "Tsinghua University",
+      "level": "undergraduate",
+      "cycle": "The general table is undated. Only the three named English programmes below have separately verified 2027 guides.",
+      "unit": "admissions routes",
+      "limits": [
+        "The 24 routes comprise 11 divisions, 10 colleges and 3 named programmes. A listed major or track is not necessarily a separately selectable application programme.",
+        "The 78 source cells can combine majors or tracks, and names can recur across routes. One additional open-choice statement is not an enumerated list of degrees.",
+        "Teaching language is unconfirmed for the general division and college entries. A section labelled Chinese and English programmes does not make every major English-taught.",
+        "The tables can change before enrolment. Separate routes, including the THU–CUHK dual degree, may sit outside this catalogue."
+      ],
+      "sourceIds": [
+        "thu-undergraduate-divisions",
+        "thu-undergraduate-gtes-2027",
+        "thu-undergraduate-urd-2027",
+        "thu-undergraduate-pes-2027"
+      ],
+      "recordCount": 24,
+      "url": "https://www.agorascholars.com/admissions/programmes/tsinghua-undergraduate"
+    },
+    {
+      "slug": "tsinghua-masters",
+      "university": "Tsinghua University",
+      "level": "master",
+      "cycle": "2027 catalogue snapshot. A catalogue listing does not confirm that applications are currently open.",
+      "unit": "department-degree entries",
+      "limits": [
+        "All 40 departments that returned records in the checked international master’s catalogue are represented. This is coverage of that source, not every degree or international route at Tsinghua.",
+        "Each entry is a department plus degree code. The 215 research fields are nested choices, not 215 additional degrees.",
+        "42 fields carry an explicit English-medium label. Other languages are shown only where confirmed; missing labels do not establish Chinese-only teaching.",
+        "Separately advertised programmes can have their own application systems. Confirm deadlines, eligibility, fees, scholarships and supervisor requirements in the current programme notice."
+      ],
+      "sourceIds": [
+        "thu-masters-2027"
+      ],
+      "recordCount": 94,
+      "url": "https://www.agorascholars.com/admissions/programmes/tsinghua-masters"
+    },
+    {
+      "slug": "peking-undergraduate",
+      "university": "Peking University",
+      "level": "undergraduate",
+      "cycle": "Prior-cycle reference: 2026. A 2027 central undergraduate table has not been verified. Do not carry 2026 requirements or dates forward.",
+      "unit": "admissions departments",
+      "limits": [
+        "The checked table contains 23 departments, 27 admissions group labels and 104 specialisation-option rows. Specialisations are not separate verified admissions openings.",
+        "Yuanpei’s university-wide choice statement is preserved separately. It does not enumerate every eligible degree.",
+        "Medical admissions use separate instructions and are not included here. This page covers the checked main-campus international route only.",
+        "This is the verified 2026 table. Use a new central notice to confirm the next intake before making an application plan."
+      ],
+      "sourceIds": [
+        "pku-undergraduate-departments",
+        "pku-undergraduate-2026-notice"
+      ],
+      "recordCount": 23,
+      "url": "https://www.agorascholars.com/admissions/programmes/peking-undergraduate"
+    },
+    {
+      "slug": "peking-masters",
+      "university": "Peking University",
+      "level": "master",
+      "cycle": "Prior-cycle reference: 2026. A 2027 central catalogue has not been verified. Individual 2027 programme notices do not update this whole list.",
+      "unit": "department-degree-language entries",
+      "limits": [
+        "177 entries come from the Chinese-taught catalogue and 43 from the English-taught catalogue. There are 189 distinct department–degree-code pairs; a pair listed in both languages appears twice.",
+        "36 of 37 linked Chinese-catalogue PDFs and all 12 English-catalogue PDFs were retrieved. The 49th linked PDF, for 先进制造与机器人学院 (Advanced Manufacturing and Robotics), returned 404. No entries were inferred for that missing source.",
+        "The 517 research fields are nested under their degrees. They are not independent degrees or additional confirmed application openings.",
+        "This covers the named central catalogue sources. Separate medical or independently advertised routes have not been established as covered, and no university-wide completeness is claimed.",
+        "Use current programme notices to confirm application availability, eligibility, fees, scholarships and deadlines. The 2026 catalogue is a subject reference for planning."
+      ],
+      "sourceIds": [
+        "pku-master-index",
+        "pku-master-cn-2026",
+        "pku-master-en-2026",
+        "pku-master-cn-2026-00240"
+      ],
+      "recordCount": 220,
+      "url": "https://www.agorascholars.com/admissions/programmes/peking-masters"
+    },
+    {
+      "slug": "shanghai-jiao-tong-undergraduate",
+      "university": "Shanghai Jiao Tong University",
+      "level": "undergraduate",
+      "cycle": "The Chinese-taught catalogue is a 2026 prior-cycle reference. Only the English Engineering Cluster route below has a separately verified 2027 guide.",
+      "unit": "catalogue and route entries",
+      "limits": [
+        "The 42 numbered 2026 entries mix admission groups and named programmes; 29 major-option cells sit within them. The 2027 cluster adds one route with nine school-major options, not nine additional admissions routes.",
+        "The cluster’s introductory stage is taught in English; destination-school courses may be English or Chinese. Robotics at Global College is marked planned and is excluded from the nine-option count.",
+        "The School of Medicine uses a separate application route. Separate French engineering, Civil Engineering English and Global Institute of Future Technology routes are not fully inventoried here.",
+        "The duration cell for Health Science and Technology is blank. Pharmacy and Clinical Pharmacy have different durations, retained with their respective options.",
+        "A source-table entry is not proof that applications are open today. Confirm eligibility, deadlines, fees and scholarships in the current programme notice.",
+        "This covers the cited catalogues and selected route notices. It is not a claim to cover every degree or every international application route at the university."
+      ],
+      "sourceIds": [
+        "sjtu-ug-cn",
+        "sjtu-ug-guide",
+        "sjtu-ug-en-2027"
+      ],
+      "recordCount": 43,
+      "url": "https://www.agorascholars.com/admissions/programmes/shanghai-jiao-tong-undergraduate"
+    },
+    {
+      "slug": "shanghai-jiao-tong-masters",
+      "university": "Shanghai Jiao Tong University",
+      "level": "master",
+      "cycle": "Prior-cycle reference: 2026. A 2027 central international master’s catalogue has not been verified here.",
+      "unit": "department-degree-language entries",
+      "limits": [
+        "The 54 Chinese-catalogue and 57 English-catalogue entries retain separate language versions; their sum is not a count of unique degrees.",
+        "The 264 nested items count source research-field cells. One cell can contain multiple subjects; these are not 264 additional degrees.",
+        "MBA and EMBA name variants share a degree code in the source. Their different track names and durations remain visible inside the entry; do not assume identical application rules.",
+        "A source-table entry is not proof that applications are open today. Confirm eligibility, deadlines, fees and scholarships in the current programme notice.",
+        "This covers the cited catalogues and selected route notices. It is not a claim to cover every degree or every international application route at the university."
+      ],
+      "sourceIds": [
+        "sjtu-m-cn",
+        "sjtu-m-en",
+        "sjtu-m-index"
+      ],
+      "recordCount": 111,
+      "url": "https://www.agorascholars.com/admissions/programmes/shanghai-jiao-tong-masters"
+    },
+    {
+      "slug": "zhejiang-undergraduate",
+      "university": "Zhejiang University",
+      "level": "undergraduate",
+      "cycle": "Prior-cycle reference: 2026. No 2027 central international undergraduate catalogue has been verified here.",
+      "unit": "programme-table entries",
+      "limits": [
+        "These are 92 rows across two central source tables, not a verified count of every undergraduate route at Zhejiang.",
+        "Joint and dual-degree names are retained as the source lists them. Partner application routes and requirements outside these attachments are not established as covered.",
+        "A programme’s catalogue language does not describe every elective or determine language-test exemptions.",
+        "A source-table entry is not proof that applications are open today. Confirm eligibility, deadlines, fees and scholarships in the current programme notice.",
+        "This covers the cited catalogues and selected route notices. It is not a claim to cover every degree or every international application route at the university."
+      ],
+      "sourceIds": [
+        "zju-ug-cn",
+        "zju-ug-en",
+        "zju-ug-guide"
+      ],
+      "recordCount": 92,
+      "url": "https://www.agorascholars.com/admissions/programmes/zhejiang-undergraduate"
+    },
+    {
+      "slug": "zhejiang-masters",
+      "university": "Zhejiang University",
+      "level": "master",
+      "cycle": "Prior-cycle reference: 2026. No 2027 central international master’s catalogue has been verified here.",
+      "unit": "programme-table entries",
+      "limits": [
+        "The total combines 224 Chinese-catalogue and 60 English-catalogue rows. Programmes can recur across languages; this is not a unique-degree count.",
+        "Eleven Chinese-catalogue entries in Chemical and Biological Engineering, Ocean College, and Biomedical Engineering and Instrument Science instruct applicants to confirm the teaching language with the relevant professor. Preserve each entry’s language note.",
+        "The 55 nested specialisation items are choices printed inside programme cells. Combined Academic/Professional rows remain one source entry.",
+        "Separate college and partner routes outside the four central attachments are not claimed complete.",
+        "A source-table entry is not proof that applications are open today. Confirm eligibility, deadlines, fees and scholarships in the current programme notice.",
+        "This covers the cited catalogues and selected route notices. It is not a claim to cover every degree or every international application route at the university."
+      ],
+      "sourceIds": [
+        "zju-m-cn",
+        "zju-m-en",
+        "zju-m-guide"
+      ],
+      "recordCount": 284,
+      "url": "https://www.agorascholars.com/admissions/programmes/zhejiang-masters"
+    },
+    {
+      "slug": "fudan-undergraduate",
+      "university": "Fudan University",
+      "level": "undergraduate",
+      "cycle": "Prior-cycle reference: 2026. No 2027 central international undergraduate catalogue has been verified here.",
+      "unit": "major and programme entries",
+      "limits": [
+        "The Chinese spreadsheet contains 62 major rows; the English table contains five programmes. These are source units, not a university-wide unique-degree denominator.",
+        "Some Chinese-catalogue rows say that some courses are taught in English. Those remarks do not make the whole degree English-taught.",
+        "Separate school updates and application routes outside these catalogues have not been exhaustively reconciled.",
+        "A source-table entry is not proof that applications are open today. Confirm eligibility, deadlines, fees and scholarships in the current programme notice.",
+        "This covers the cited catalogues and selected route notices. It is not a claim to cover every degree or every international application route at the university."
+      ],
+      "sourceIds": [
+        "fudan-ug-cn",
+        "fudan-ug-en",
+        "fudan-ug-index"
+      ],
+      "recordCount": 67,
+      "url": "https://www.agorascholars.com/admissions/programmes/fudan-undergraduate"
+    },
+    {
+      "slug": "fudan-masters",
+      "university": "Fudan University",
+      "level": "master",
+      "cycle": "The central master’s catalogues are 2026 references. Only MIF and AIB in the School of Management have separately verified 2027 notices in this inventory.",
+      "unit": "catalogue and programme entries",
+      "limits": [
+        "The 2026 catalogues yield 136 Chinese-catalogue and 25 English-catalogue department-degree entries. Adding two selected 2027 programmes gives 163 entries, not 163 distinct degrees.",
+        "All 716 numbered directions in the Chinese master’s spreadsheet and 62 master’s rows in the English spreadsheet are retained as nested items. Doctoral rows are excluded.",
+        "The 2027 School of Management notice lists MIF as English-taught and AIB as Chinese-taught. It does not update the rest of Fudan’s catalogue to 2027.",
+        "GMiM and DDIM use partner-university channels and are not part of the two direct-entry 2027 programmes. Preserve the partner-channel note on their 2026 catalogue entry.",
+        "Separate STEM elite project listings and specialist school notices have not been reconciled into a complete university-wide inventory.",
+        "A source-table entry is not proof that applications are open today. Confirm eligibility, deadlines, fees and scholarships in the current programme notice.",
+        "This covers the cited catalogues and selected route notices. It is not a claim to cover every degree or every international application route at the university."
+      ],
+      "sourceIds": [
+        "fudan-m-cn",
+        "fudan-m-en",
+        "fudan-m-index",
+        "fudan-m-2027"
+      ],
+      "recordCount": 163,
+      "url": "https://www.agorascholars.com/admissions/programmes/fudan-masters"
+    },
+    {
+      "slug": "ustc-undergraduate",
+      "university": "University of Science and Technology of China",
+      "level": "undergraduate",
+      "cycle": "Historical 2026 catalogue. A 2027 catalogue has not been verified.",
+      "unit": "discipline groups",
+      "limits": [
+        "The source groups majors by discipline. Nested majors are not counted as additional discipline groups or independently confirmed application openings.",
+        "The PDF lists 38 major rows under 18 disciplines. The general admissions guide states 35 majors; these different source totals have not been reconciled.",
+        "The catalogue says majors within disciplines may be adjusted at enrolment. Codes and departments are not supplied in this table.",
+        "Use this historical list to explore subjects, then confirm availability and requirements for the intended intake."
+      ],
+      "sourceIds": [
+        "ustc-ug-2026",
+        "ustc-ug-guide"
+      ],
+      "recordCount": 18,
+      "url": "https://www.agorascholars.com/admissions/programmes/ustc-undergraduate"
+    },
+    {
+      "slug": "ustc-masters",
+      "university": "University of Science and Technology of China",
+      "level": "master",
+      "cycle": "Historical 2026 catalogues. Teaching language is specific to each source list.",
+      "unit": "discipline-language entries",
+      "limits": [
+        "Chinese and English catalogue entries remain separate even where discipline names overlap. Research fields are nested options, not additional degrees.",
+        "These tables do not provide programme codes or admissions departments. General university programme totals use a different unit and are not a verified denominator for these records.",
+        "The asterisked historical entries retain the source’s bachelor’s-degree date condition. It must not be carried forward to a later intake.",
+        "Coverage is complete for rows in these two PDFs, not a claim about every USTC degree or separately advertised route."
+      ],
+      "sourceIds": [
+        "ustc-master-cn-2026",
+        "ustc-master-en-2026",
+        "ustc-master-guide"
+      ],
+      "recordCount": 36,
+      "url": "https://www.agorascholars.com/admissions/programmes/ustc-masters"
+    },
+    {
+      "slug": "nanjing-undergraduate",
+      "university": "Nanjing University",
+      "level": "undergraduate",
+      "cycle": "2027 is explicit in the catalogue title. Listing does not confirm applications are currently open.",
+      "unit": "school-major entries",
+      "limits": [
+        "Each source row represents a school and major. Repeated major names in different schools are retained separately.",
+        "All listed programmes are Chinese-taught, and the table requires Chinese as the CSCA test language. An English translation of a major name is not an English-taught route.",
+        "The 汉语言 row has a specific Humanities Chinese CSCA exemption condition. Other rows do not inherit that exception.",
+        "This is coverage of the checked central international catalogue. Separate notices may contain additional conditions or later changes."
+      ],
+      "sourceIds": [
+        "nju-ug-2027",
+        "nju-ug-index"
+      ],
+      "recordCount": 52,
+      "url": "https://www.agorascholars.com/admissions/programmes/nanjing-undergraduate"
+    },
+    {
+      "slug": "nanjing-masters",
+      "university": "Nanjing University",
+      "level": "master",
+      "cycle": "September 2026 catalogue publication; intake year unstated in the PDF. The accompanying guide refers to July 2027 graduates.",
+      "unit": "school-programme-language rows",
+      "limits": [
+        "The PDF has no explicit intake label, so entry intake remains unknown. The September 2026 publication and 2027 guide context do not silently turn it into an explicitly dated catalogue.",
+        "Rows sharing a programme code can differ by school, teaching language, class arrangement or duration. They remain separate records.",
+        "Only study directions enumerated in the source are nested. They are not additional degrees; a missing direction list does not mean a degree has no specialisations.",
+        "Official English programme and school titles are not supplied in this PDF. The Chinese names are retained without invented official translations.",
+        "Professional degree and part-time status appear only where the source states them. Confirm eligibility, scholarships, deadlines and current availability in the relevant route notice."
+      ],
+      "sourceIds": [
+        "nju-master-latest",
+        "nju-master-index",
+        "nju-master-guide"
+      ],
+      "recordCount": 127,
+      "url": "https://www.agorascholars.com/admissions/programmes/nanjing-masters"
+    },
+    {
+      "slug": "xian-jiaotong-undergraduate",
+      "university": "Xi’an Jiaotong University",
+      "level": "undergraduate",
+      "cycle": "Historical 2026 intake. No 2027 central international undergraduate catalogue was verified.",
+      "unit": "catalogue and route entries",
+      "limits": [
+        "The workbook contains 49 rows; the separate April 2026 dentistry notice adds one BDS route. Medical coverage here includes the listed MBBS and separate BDS, not a claim to cover all health-science degrees.",
+        "Language variants and explicitly named tracks remain separate source rows. These 50 entries are not 50 unique degrees.",
+        "The 2026 CSCA subjects are preserved with the table’s alternative-subject and HSK exemptions; do not carry those rules forward without a new notice.",
+        "A catalogue listing is not confirmation that applications are open. Check a current programme notice for availability, eligibility, fees, scholarships and deadlines.",
+        "This covers the cited international sources, not every university degree or separately advertised route. Campus assignments are not specified in these catalogue rows."
+      ],
+      "sourceIds": [
+        "xjtu-ug-2026",
+        "xjtu-ug-index",
+        "xjtu-ug-guide-2026",
+        "xjtu-bds-2026"
+      ],
+      "recordCount": 50,
+      "url": "https://www.agorascholars.com/admissions/programmes/xian-jiaotong-undergraduate"
+    },
+    {
+      "slug": "xian-jiaotong-masters",
+      "university": "Xi’an Jiaotong University",
+      "level": "master",
+      "cycle": "Historical 2026 intake. No 2027 central international master catalogue was verified.",
+      "unit": "school-programme-language entries",
+      "limits": [
+        "Only the workbook’s 107 programme rows are counted: 21 Chinese and 86 English. Repeated names across schools or teaching languages remain separate.",
+        "Supervisor profiles, contacts and research-interest prose are excluded. Supervisor-level conditions may still apply; open the official workbook for the chosen research area.",
+        "English-labelled clinical professional degrees still require Chinese proficiency under the 2026 guide. The dental-school note specifically requires Chinese for clinical study and work.",
+        "The source supplies most degree types in Chinese, preserved here without invented translations. The mixed bilingual Chinese Culture Studies label is retained as one original cell.",
+        "A catalogue listing is not confirmation that applications are open. Check a current programme notice for availability, eligibility, fees, scholarships and deadlines.",
+        "This covers the cited international sources, not every university degree or separately advertised route. Campus assignments are not specified in these catalogue rows."
+      ],
+      "sourceIds": [
+        "xjtu-master-2026",
+        "xjtu-master-index",
+        "xjtu-master-guide-2026"
+      ],
+      "recordCount": 107,
+      "url": "https://www.agorascholars.com/admissions/programmes/xian-jiaotong-masters"
+    },
+    {
+      "slug": "harbin-institute-of-technology-undergraduate",
+      "university": "Harbin Institute of Technology",
+      "level": "undergraduate",
+      "cycle": "The workbook says 2026/2027 academic year; the linked guide specifies September 2026 entry and a July 15, 2026 deadline. A 2027 intake is not verified.",
+      "unit": "programme-language rows",
+      "limits": [
+        "The source contains 67 Chinese and 30 English rows. The English subset repeats programme names; the total is not a count of unique degrees.",
+        "The workbook separates Chinese and English rows. The guide uses broader Chinese and English wording; row-level labels are retained, with the guide’s 20-student minimum for English classes.",
+        "All durations below follow the workbook, including its four-year architecture entry. Confirm any difference with the programme before applying.",
+        "No Shenzhen or Weihai campus coverage is established by these rows. Domestic 2027 graduate notices do not establish an international 2027 undergraduate intake.",
+        "A catalogue listing is not confirmation that applications are open. Check a current programme notice for availability, eligibility, fees, scholarships and deadlines.",
+        "This covers the cited international sources, not every university degree or separately advertised route. Campus assignments are not specified in these catalogue rows."
+      ],
+      "sourceIds": [
+        "hit-ug-2026-2027",
+        "hit-ug-guide"
+      ],
+      "recordCount": 97,
+      "url": "https://www.agorascholars.com/admissions/programmes/harbin-institute-of-technology-undergraduate"
+    },
+    {
+      "slug": "harbin-institute-of-technology-masters",
+      "university": "Harbin Institute of Technology",
+      "level": "master",
+      "cycle": "The workbooks do not state an intake year. The linked admission page still specifies September 2026 and a May 31, 2026 deadline.",
+      "unit": "school-discipline-language rows",
+      "limits": [
+        "The source column is first-level discipline (一级学科). These 52 rows are school-discipline-language entries, not 52 separately verified named degrees.",
+        "The two language catalogues overlap and are counted separately. A Business Administration discipline label is not relabelled MBA.",
+        "No programme codes, research-field lists or campus assignments are supplied in these workbooks. Intake remains unknown instead of being inferred from the guide or file URL.",
+        "Separately advertised Youth of Excellence routes and campus-specific programmes are outside this workbook inventory. Domestic 2027 notices are not evidence of international intake.",
+        "A catalogue listing is not confirmation that applications are open. Check a current programme notice for availability, eligibility, fees, scholarships and deadlines.",
+        "This covers the cited international sources, not every university degree or separately advertised route. Campus assignments are not specified in these catalogue rows."
+      ],
+      "sourceIds": [
+        "hit-master-cn-latest",
+        "hit-master-en-latest",
+        "hit-master-guide"
+      ],
+      "recordCount": 52,
+      "url": "https://www.agorascholars.com/admissions/programmes/harbin-institute-of-technology-masters"
+    }
+  ]
+}
