@@ -1,0 +1,27 @@
+cff-version: "1.2.0"
+message: "If you use this dataset, cite the snapshot below and retain each record's official source references."
+type: dataset
+title: "China admissions catalogue data"
+authors:
+  - name: "Agora Scholars"
+    website: "https://www.agorascholars.com/admissions/about"
+version: "v2026.10.07"
+date-released: "2026-10-07"
+url: "https://github.com/leolindthu/china-admissions-directory/releases/tag/v2026.10.07"
+repository-code: "https://github.com/leolindthu/china-admissions-directory"
+commit: "ed49192ed1a495df8593c14251e980271de6970c"
+license-url: "https://github.com/leolindthu/china-admissions-directory/blob/ed49192ed1a495df8593c14251e980271de6970c/LICENSE"
+abstract: >-
+  A source-linked snapshot of selected international undergraduate and master's
+  admissions catalogues, curated by Agora Scholars. It contains 1,660 catalogue
+  units from nine Chinese universities and 100 official source records.
+  Catalogue units are not distinct degrees or currently open applications.
+  Historical and unknown intake cycles, teaching-language qualifications and
+  coverage limits are preserved. Source-check dates are inherited from the
+  underlying research record. Rights in university materials remain with their
+  respective owners; see the scoped licence.
+keywords:
+  - China admissions
+  - international students
+  - undergraduate admissions
+  - master's admissions

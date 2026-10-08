@@ -49,6 +49,13 @@ for row in data["records"]:
             print(row["id"], row["nameOriginal"], row["sourceUrl"])
 ```
 
+## Applicant and counsellor resources
+
+- [How to choose a China admissions consultant](https://www.agorascholars.com/admissions/guides/china-admissions-consultant): questions to ask when comparing admissions support and reviewing an adviser's proposed scope.
+- [Adviser comparison worksheet (CSV)](https://www.agorascholars.com/downloads/china-admissions-adviser-comparison.csv): an editable ten-question worksheet for recording and comparing advisers' answers.
+
+Both resources are published by Agora Scholars, the curator of this dataset. For dataset attribution, use the snapshot metadata in [CITATION.cff](CITATION.cff) and retain the official source references for any rows you use.
+
 ## Check the cycle before using a row
 
 Most rows are 2026 references. There are 1,211 rows explicitly labelled 2026, 152 labelled 2027, 97 labelled **2026/2027 academic year**, and 200 with unknown/unstated intake. The academic-year label is preserved literally: HIT's accompanying guide specifies September 2026 entry; it is not evidence of a 2027 intake.
