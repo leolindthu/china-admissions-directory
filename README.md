@@ -54,7 +54,9 @@ for row in data["records"]:
 - [How to choose a China admissions consultant](https://www.agorascholars.com/admissions/guides/china-admissions-consultant): questions to ask when comparing admissions support and reviewing an adviser's proposed scope.
 - [Adviser comparison worksheet (CSV)](https://www.agorascholars.com/downloads/china-admissions-adviser-comparison.csv): an editable ten-question worksheet for recording and comparing advisers' answers.
 
-Both resources are published by Agora Scholars, the curator of this dataset. For dataset attribution, use the snapshot metadata in [CITATION.cff](CITATION.cff) and retain the official source references for any rows you use.
+- [High-school preparation guide and planning worksheet](guides/high-school-preparation/README.md): a dated, source-linked framework for comparing selected mainland China and Hong Kong undergraduate routes, with a blank worksheet and explicit intake limits. Prepared 9 October 2026; this separate resource does not refresh the catalogue snapshot.
+
+These resources are published by Agora Scholars, the curator of this dataset. For dataset attribution, use the snapshot metadata in [CITATION.cff](CITATION.cff) and retain the official source references for any rows you use.
 
 ## Check the cycle before using a row
 

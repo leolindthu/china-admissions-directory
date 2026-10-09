@@ -1,0 +1,315 @@
+{
+  "publisher": "Agora Scholars",
+  "ownershipDisclosure": "This resource is owned and prepared by Agora Scholars, a private admissions advisory business. It is not an independent review or university endorsement.",
+  "preparedDate": "2026-10-09",
+  "scope": "Selected undergraduate preparation examples; admission and immigration decisions remain with the relevant institutions and authorities.",
+  "sourceCount": 15,
+  "directHttpsSourceCount": 7,
+  "extractOnlySourceCount": 8,
+  "catalogueSnapshotUpdated": false,
+  "records": [
+    {
+      "id": "thu-eligibility",
+      "title": "Tsinghua international undergraduate eligibility",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Eligibility.htm",
+      "scope": "2027 references explicitly present",
+      "reviewedAt": "2026-10-09T04:01:06.808506+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "a7ab92d7749553927defc0fb3cf7b0282e2304490a81f0ddafa8fce97a292fc7",
+      "supportingQuote": "Proof of Chinese language proficiency is not required.",
+      "supportedFacts": [
+        "Route-specific preparation: full-time, in-person high-school qualification; distinguish English-taught from Chinese-English language evidence.",
+        "For the latter route the page specifies HSK 5 or higher and above 60 in each section, subject to stated waivers."
+      ],
+      "limitations": [
+        "Do not convert nationality documentation into an adviser eligibility ruling; read programme-specific instructions.",
+        "The quoted Chinese-language exemption belongs to English-taught programmes, not every route."
+      ]
+    },
+    {
+      "id": "thu-faq",
+      "title": "Tsinghua international undergraduate FAQ",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/FAQ.htm",
+      "scope": "Mixed 2027,2026 and 2025 references",
+      "reviewedAt": "2026-10-09T04:01:06.809030+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "7f66e2f481e25203d4f3ca4e8f936453c2721a7cb7ce4f13b1f91cd02e85fa67",
+      "supportingQuote": "Tsinghua University does not require CSCA exam scores for the 2026 intake.",
+      "supportedFacts": [
+        "The FAQ contains an explicitly 2026 CSCA statement alongside 2027 references elsewhere."
+      ],
+      "limitations": [
+        "Do not extrapolate that statement into a confirmed 2027 exemption or advance the mixed age/guardianship dates.",
+        "The source is useful for identifying questions; use the current route notice for binding dates and requirements."
+      ]
+    },
+    {
+      "id": "pku-exempt",
+      "title": "PKU undergraduate programme without written examination",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=813",
+      "scope": "2026, historical planning reference",
+      "reviewedAt": "2026-10-09T04:01:06.809345+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "0680727f8efc9ac19bdd82ca8c777999d208b63ea20576af980da1b6d42590b4",
+      "supportingQuote": "only those who pass can participate in the secondary examination.",
+      "supportedFacts": [
+        "Qualifying national/international results support entry into further assessment; exemption is not automatic admission.",
+        "Keep qualification, language, applicant status and route questions separate."
+      ],
+      "limitations": [
+        "Do not roll forward 2026 application windows, age or nationality-residence dates into 2027.",
+        "A bounded search did not verify 2027; it does not prove that no 2027 material exists."
+      ]
+    },
+    {
+      "id": "pku-score-table",
+      "title": "PKU score requirements for undergraduate programme without written examination",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=816",
+      "scope": "2026, historical planning reference",
+      "reviewedAt": "2026-10-09T04:01:10.302155+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "b0d4fc17aa6a2c507697e622b968a68c8db0eca7ec9bc7382b0231f9784923fe",
+      "supportingQuote": "Applicants applying to other schools must take Chinese (Arts stream) and Mathematics.",
+      "supportedFacts": [
+        "Historical table separates qualification categories and subject expectations; it is a useful example of why subject choices must match the intended route."
+      ],
+      "limitations": [
+        "The quoted row is within the 2026 CSCA table, not a universal examination list.",
+        "Do not use old numerical score minima as 2027 competitiveness or guaranteed-offer thresholds."
+      ]
+    },
+    {
+      "id": "sjtu-cluster",
+      "title": "SJTU English-taught Engineering Cluster admissions",
+      "url": "https://en.sjtu.edu.cn/study-sjtu/prospective/degree-programs/278",
+      "scope": "2027 application/entry references present",
+      "reviewedAt": "2026-10-09T04:01:11.101672+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "be4b0e138f633f67c6c5eb8c25c7ebff076d2c60a0eb594d1e79fcda1011e7b6",
+      "supportingQuote": "SAT/ACT /A-Level/IB (code: N010601)/UEC/UNT/others cannot replace the CSCA requirement.",
+      "supportedFacts": [
+        "The captured 2027 Engineering Cluster notice requires CSCA Mathematics; other listed tests do not replace that requirement.",
+        "It permits other test evidence initially in the stated sequence, with CSCA scores required by30June 2027; route instructions control."
+      ],
+      "limitations": [
+        "This is the Engineering Cluster scope only; not a statement about all SJTU programmes or scholarships.",
+        "Central and college wording on English-test exemptions may differ; do not merge alternative criteria into a new rule."
+      ]
+    },
+    {
+      "id": "zju-2026",
+      "title": "Zhejiang University undergraduate application guide",
+      "url": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68988a2981659/page.htm",
+      "scope": "2026, historical planning reference",
+      "reviewedAt": "2026-10-09T04:01:11.740963+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "453aad6734876d0b16ddc5141ab2496412867929e6a8c62d420619de0e6ff3f8",
+      "supportingQuote": "For the subjects and language of the test papers corresponding to each major, please refer to the program catalog.",
+      "supportedFacts": [
+        "The 2026 guide explicitly separates teaching language, language evidence, CSCA, and catalogue-specific subject requirements."
+      ],
+      "limitations": [
+        "It mentions the 2026/2027 academic year, which is not a newly verified 2027-entry application calendar.",
+        "No whole-catalogue refresh was performed."
+      ]
+    },
+    {
+      "id": "fudan-2026",
+      "title": "Fudan Chinese-taught undergraduate admission information",
+      "url": "https://iso.fudan.edu.cn/_upload/article/files/85/53/0b2ac02c4bf19b8c85786d147c4d/ee5986a3-fc7e-4de0-9e73-dfbf9da86888.pdf",
+      "scope": "2026, historical planning reference",
+      "reviewedAt": "2026-10-09T04:01:11.743349+00:00",
+      "method": "Exa source discovery/extraction, followed by direct HTTPS origin fetch with inherited proxy and TLS verification; HTML text/PDF extraction reviewed.",
+      "directHttpsStatus": 200,
+      "directSourceSha256": "66d6beb3f65842d869e734f098cda91b3ff39fac81be5382bf781044119ff7e9",
+      "supportingQuote": "This is NOT mandatory.",
+      "supportedFacts": [
+        "The HSK certificate item in the 2026 English PDF explicitly says it is not mandatory; this is not proof that Chinese ability is unnecessary.",
+        "The same notice describes CSCA and an interview assessing applicants and Chinese-language proficiency."
+      ],
+      "limitations": [
+        "The short quote applies only to the HSK certificate item in this notice.",
+        "Do not generalize to English-taught routes, future intakes or universal language waivers."
+      ]
+    },
+    {
+      "id": "hku-2027-general",
+      "title": "HKU General Information for IAS / NJ / DAS 2027",
+      "url": "https://admissions.hku.hk/sites/default/files/2026-09/HKU_General_Information_NJ_2027.pdf",
+      "scope": "September 2027; explicitly stated",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official PDF",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "Add / changes to the choice(s) of curriculum will not be allowed after submission of the application."
+      ],
+      "supportedFacts": [
+        "International/non-JUPAS admission route differs from mainland NJCEE and local HKDSE/JUPAS routes; qualification and nonlocal status must be determined first.",
+        "2027 first-round evaluation cutoff is 2026-11-25 at noon Hong Kong time; offers begin December 2026; later rolling applications can continue until 2027-08-25 noon, subject to remaining places.",
+        "At most three programme choices in one application; interviews/tests are programme-dependent and an invitation is not an admission-probability signal."
+      ],
+      "limitations": [
+        "The general document says programme choices cannot change after submission, while the 2027 step-by-step guide says changes are allowed until Nov 25. Do not promise changes; finalize choices before submission and seek university clarification if needed.",
+        "Exa extracted content is evidence of retrieved text; direct live-origin bytes/status were not independently captured."
+      ]
+    },
+    {
+      "id": "hku-2027-preparation",
+      "title": "HKU online application step-by-step guide — 2027 intake",
+      "url": "https://admissions.hku.hk/sites/default/files/2026-09/UG_NJ_Admissions%20StepbyStep%20Guide_2027Intake.pdf",
+      "scope": "2027; URL/title and Sep 2026–Jun 2027 study period",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official PDF",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "Changes to your programme choices will be allowed until 12:00 noon, Nov 25, 2026 (HKT)."
+      ],
+      "supportedFacts": [
+        "Prepare identity documents, high-school transcript, one personal statement, exam certificates, language evidence, predicted/actual grades and programme choices; a CV/awards and referee material may support the file.",
+        "Uploading a transcript alone does not replace entering academic results into the form. Plan counsellor access and grade entry before submitting.",
+        "Coordinate references in advance; the guide recommends counsellor/referee parts by 2026-12-01."
+      ],
+      "limitations": [
+        "Some preparation items are optional or applicant-dependent; do not make every award/CV/reference a universal minimum.",
+        "Programme-choice edit guidance conflicts with general information PDF.",
+        "Do not generalize HKU's second-language documentation to every Hong Kong institution."
+      ]
+    },
+    {
+      "id": "hku-english",
+      "title": "HKU English Language Requirement",
+      "url": "https://admissions.hku.hk/apply/international-qualifications/english-language-requirement",
+      "scope": "No explicit intake in fetched page; undated current rules page retrieved 2026-10-09",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official page",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "An overall band score of 6.5 or above in the IELTS Academic Module, with no less than 6.0 in both the Writing and Speaking components"
+      ],
+      "supportedFacts": [
+        "Use the institution's accepted English qualification list; HKU publishes accepted school qualifications as well as IELTS/TOEFL options.",
+        "For IELTS planning the retrieved table requires overall 6.5 and at least 6.0 Writing/Speaking in the same sitting, within two years before September 1; IELTS Online/Indicator are not accepted."
+      ],
+      "limitations": [
+        "Not explicitly labelled 2027; recheck for applicant intake before relying on thresholds.",
+        "TOEFL text mixes legacy/new scales in a way that appears internally inconsistent (legacy section has 5.0 component wording); avoid republishing that line without HKU clarification.",
+        "Meeting an English minimum does not establish admission competitiveness or programme eligibility."
+      ]
+    },
+    {
+      "id": "cuhk-international-requirements",
+      "title": "CUHK Overseas / Other Qualifications (Non-local) (International) — Requirements",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/",
+      "scope": "Undated/mixed page; TOEFL explicitly 2026 Entry and subject to review for 2027 onwards",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa; first extraction truncated, repeated same URL at 50000 chars to inspect full language/programme sections",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "Applicants are required to meet (1) general requirements, (2) language requirements and (3) programme-specific requirements."
+      ],
+      "supportedFacts": [
+        "For school subject choices, check qualification-specific and programme-specific requirements before locking an A-level/IB/high-school subject plan.",
+        "International route is for stated nonlocal status categories; current mainland Gaokao candidates are excluded from this scheme and must use the designated mainland route.",
+        "International page describes an English language requirement, not the separate local non-JUPAS page's general English-and-Chinese wording.",
+        "Minimum qualifications/grades are eligibility floors, not target offers, admission odds or guaranteed results."
+      ],
+      "limitations": [
+        "No CUHK 2027 application rules verified by this bounded search.",
+        "The same page contains a stale China-country row referencing 2025, while TOEFL explicitly warns of review for 2027. Do not present all table rows as a newly verified 2027 specification.",
+        "Programme-specific teaching/interview language or prerequisites may still apply; no universal Chinese waiver inferred."
+      ]
+    },
+    {
+      "id": "cuhk-2026-application-guide",
+      "title": "CUHK International Students Admissions Scheme — Application Guide (2026 Entry)",
+      "url": "https://www.cuhk.edu.hk/adm/ApplicationGuide/ApplicationGuide_International.pdf",
+      "scope": "2026 Entry; explicit, historical for forward planning as of 2026-10-09",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official PDF",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "International Students Admissions Scheme (2026 Entry)",
+        "high school reports / transcripts (from secondary 1 or grade 7 to the latest academic term)"
+      ],
+      "supportedFacts": [
+        "Historical preparation example: preserve school reports from early secondary years onward, exam/predicted results, language evidence, identity/status documents and a personal statement; coordinate an academic referee.",
+        "The 2026 guide requests certified English translations for transcripts/diplomas not in English or Chinese; original certificates may later be checked.",
+        "2026 guide supports collecting documents early; its dates and fees must not be advanced to 2027."
+      ],
+      "limitations": [
+        "Historical process illustration only; no current 2027 deadline or document promise.",
+        "2026 Advance Offer Nov13 2025 / Regular Jan8 2026 / Extended May29 2026 dates are expired; exclude them from a 2027 calendar.",
+        "Medicine has additional requirements; do not generalize a standard personal-statement format."
+      ]
+    },
+    {
+      "id": "cuhk-application-guides-page",
+      "title": "CUHK International — Application Guides",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/application-guides/",
+      "scope": "Retrieved page still describes 2026 entry",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official page",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "For applications and results notification timeline of the selection exercise for 2026 entry, please check here."
+      ],
+      "supportedFacts": [
+        "Official page confirms where applicants should check the application workflow and updated intake instructions.",
+        "School/counsellor involvement is practical preparation; referees receive system invitations after application submission and fee settlement."
+      ],
+      "limitations": [
+        "Current retrieved page retains historical 2026 selection dates and fee; not evidence of a 2027 schedule.",
+        "Do not imply a complete search of all unpublished/current CUHK 2027 pages."
+      ]
+    },
+    {
+      "id": "hong-kong-student-visa",
+      "title": "Hong Kong Immigration Department — Students",
+      "url": "https://www.immd.gov.hk/eng/services/visas/study.html",
+      "scope": "Immigration policy; no university intake",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official HKSAR Immigration Department page",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "he/she requires a visa/entry permit to study in the HKSAR."
+      ],
+      "supportedFacts": [
+        "Hong Kong study permission is a distinct HKSAR visa/entry-permit process; do not send HKU/CUHK applicants to a mainland X1/X2-only checklist.",
+        "Budget for tuition, living and accommodation independently of assumed employment income; prepare evidence of financial support.",
+        "Allow application time after all required documents arrive; the official six-week norm is not a guarantee.",
+        "Applicants under18 need guardian/parent consent and accommodation evidence under the listed conditions."
+      ],
+      "limitations": [
+        "Admission alone does not grant immigration permission; nationality/residence-specific arrangements and individual eligibility apply.",
+        "No inference about tuition subsidy/nonlocal admissions classification solely from passport nationality.",
+        "The full page includes country-specific restrictions/exceptions; a short guide should link official assessment rather than state one rule for everyone."
+      ]
+    },
+    {
+      "id": "hong-kong-visa-route-differences",
+      "title": "Hong Kong Immigration Department — Immigration Policy on Study FAQ",
+      "url": "https://www.immd.gov.hk/eng/faq/imm-policy-study.html",
+      "scope": "Immigration policy; no university intake",
+      "reviewedAt": "2026-10-09T04:00:39Z",
+      "method": "Exa web_fetch_exa extraction of official HKSAR Immigration Department page",
+      "directHttpsStatus": null,
+      "supportingQuotes": [
+        "Full-time students from Taiwan will be issued with a single-journey entry permit"
+      ],
+      "supportedFacts": [
+        "Overseas/Macao, Taiwan and mainland-resident arrangements differ; mainland residents also need the relevant Exit-entry Permit and exit endorsement from mainland authorities.",
+        "For mainland applicants, institutional sponsorship and entry documents should be planned with the admitting institution."
+      ],
+      "limitations": [
+        "These are route examples, not an exhaustive eligibility assessment. Exact residence/nationality/status must be checked against official guidance.",
+        "Do not conflate Hong Kong nonlocal status with foreign citizenship."
+      ]
+    }
+  ]
+}
